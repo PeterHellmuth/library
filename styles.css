@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+
+#input-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.header{
+    background-color: lightblue;
+    height: 100vh;
+    padding: 50px;
+}
+
+.library{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.book-card{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
